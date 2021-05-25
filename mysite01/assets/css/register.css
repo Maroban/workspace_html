@@ -1,0 +1,76 @@
+/********** 왼쪽메뉴 **********/
+#content #aside ul>:nth-child(2){
+  font-weight: bold;
+}
+
+/********** 전체 **********/
+.sign_up {
+  width: 800px;
+  padding: 5px;
+}
+
+/********** 폼 **********/
+.form_group {
+  padding: 15px 0px 15px 0px;
+}
+.form_label {
+  display: inline-block;
+  width: 100px;
+}
+
+/********** 텍스트 공통 **********/
+#tt_id, #tt_pw, #tt_name, #address_1 {
+  width: 180px;
+  height: 20px;
+  font-size: 12px;
+  padding-left: 2px;
+}
+
+.form_group {
+  border-bottom: 1px solid #e6e6e6
+}
+
+/********** 주소 **********/
+#address_2 {
+  width: 500px;
+  height: 20px;
+  font-size: 12px;
+  padding-left: 2px;
+  margin-left: 104px;
+  margin-top: 5px;
+}
+
+/********** 통신사 **********/
+#telecom {
+  width: 110px;
+}
+
+/********** 나이 및 취미 **********/
+input[type="radio"], input[type="checkbox"] {
+  margin: 0px 15px 0px 0px;
+}
+
+/********** 자기소개 **********/
+#self {
+  width: 500px;
+  height: 150px;
+  resize: none;
+}
+.self {
+  display: flex;
+}
+
+/********** 버튼 **********/
+.btn {
+  text-align: center;
+  margin-top: 10px;
+  height: 10px;
+}
+button[type="submit"] {
+  width: 55px;
+  height: 30px;
+}
+button[type="reset"] {
+  width: 60px;
+  height: 30px;
+}

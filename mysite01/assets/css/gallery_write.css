@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/********** 검색 영역 **********/
+#board #search_area form {
+  float: right;
+}
+#board #search_area form input[type="text"] {
+  width: 150px;
+  height: 25px;
+}
+#board #search_area form button { 
+  padding: 3px 5px;
+}
+
+/********** 갤러리 박스 **********/
+#main_body #gallery_box {
+  padding: 29px;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+}
+/********** 갤러리 헤드 **********/
+#gallery_head {
+  border-bottom: 1px solid #a6a6a6;
+  margin-bottom: 20px;
+}
+#gallery_head a {
+color: #79b30b;
+font-weight: bold;
+font-size: 13px;
+}
+#gallery_head h2 {
+  margin-top: 13px;
+  font-size: 26px;
+  font-weight: 400;
+}
+#gallery_head img {
+  float: left;
+  width: 36px;
+  margin-top: 13px;
+  border-radius: 20px;
+}
+#gallery_head ul {
+  margin: 13px 13px 13px 45px;
+  font-size: 13px;
+}
+#gallery_head ul>:nth-child(2) {
+  color: #676767;
+}

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/********** 이력서 해드 **********/
+#info_header {
+  
+}
+#info_header>h2 {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid gray;
+}
+
+/********** 이력서 프로필 **********/
+#info_body #info_profile {
+  float: left;
+  width: 165px;
+  height: 220px;
+  text-align: center;
+}
+#info_body #info_profile>img {
+  width: 115px;
+  height: 150px;
+  border: 1px solid #ddd;
+}
+#info_body #info_profile>button {
+  margin-top: 10px;
+  border: 1px solid #dfdfdf;
+  background-color: #efefef;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/********** 이력서 상단 **********/
+#myinfo {
+  float: left;
+  width: 710px;
+  height: 214px;
+}
+#info_top {
+  border-bottom: 1px solid #ccc;
+
+}
+#myinfo>#myname{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+#myinfo>#myname>:first-child {
+  float: left;
+  font-size: 21px;
+  font-weight: bold;
+}
+#myinfo>#myname>:nth-child(2) {
+  float: left;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+#myinfo table tr>th {
+  text-align: left;
+  font-size: 14px;
+}
+#myinfo table tr>td {
+  text-align: left;
+  font-size: 14px;
+  padding: 8px 30px;
+}
+
+/********** 이력서 제목 **********/
+#info_title {
+  margin-top: 20px;
+}
+#info_title form label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+#info_title form>input {
+  margin-top: 10px;
+  width: 750px;
+  height: 45px;
+  font-size: 15px;
+}
+

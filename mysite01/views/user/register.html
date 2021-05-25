@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>MySite</title>
+  <link rel="stylesheet" href="../../assets/css/common.css">
+  <link rel="stylesheet" href="../../assets/css/register.css">
+</head>
+<body>
+  <div id="wrap">
+    <!---------- 해더 ---------->
+    <div id="header" class="clearfix">
+      <!---------- 사이트 로고 ---------->
+      <h1><a href="../main/main.html">MySite</a></h1>
+      <!---------- 로그인 & 회원가입 링크 ---------->
+      <ul class="clearfix">
+        <li><a href="../user/login.html">로그인</a></li>
+        <li><a href="../user/register.html">회원가입</a></li>
+      </ul>
+    </div>
+    <!---------- 네비게이션 ---------->
+    <div id="nav">
+      <ul class="clearfix">
+        <li><a href="../info/info01.html">입사지원서</a></li>
+        <li><a href="../board/board01.html">게시판</a></li>
+        <li><a href="../gallery/gallery01.html">갤러리</a></li>
+        <li><a href="">방명록</a></li>
+      </ul>
+    </div>
+    <!------------------ 컨텐츠 ------------------>
+    <div id="content" class="clearfix">
+      <!---------- 왼쪽메뉴 ---------->
+      <div id="aside">
+        <div>
+          <h2>
+            유저
+          </h2>
+          <ul>
+            <li><a href="">회원정보</a></li>
+            <li><a href="../user/register.html">회원가입</a></li>
+            <li><a href="">아이디 찾기</a></li>
+          </ul>
+        </div>
+      </div>
+      <!---------- main_head 영역 ---------->
+      <div id="main">
+        <div id="main_head" class="clearfix">
+          <h3>
+            회원가입
+          </h3>
+          <ul class="clearfix">
+            <li>홈</li>
+            <li>유저</li>
+            <li class= "last">회원가입</li>
+          </ul>
+        </div>
+      <!---------- main_body 영역 ---------->        
+    <!-- 회원가입 -->
+    <div class="sign_up">
+      <form action="#" method="get">
+        <!-- 아이디 -->
+        <div class="form_group">
+          <label class="form_label" name="tt_id">아이디</label>
+          <input type="text" id="tt_id" name="id" value="" placeholder="아이디를 입력하세요">
+        </div>
+        <!-- 비밀번호 -->
+        <div class="form_group">
+          <label class="form_label" name="tt_pw">비밀번호</label>
+          <input type="password" id="tt_pw" name="pw" value="" placeholder="비밀번호를 입력하세요">
+        </div>
+        <!-- 이름 -->
+        <div class="form_group">
+          <label class="form_label" name="tt_name">이름</label>
+          <input type="text" id="tt_name" name="name" value="" placeholder="이름을 입력하세요">
+        </div>
+        <!-- 프로필사진 -->
+        <div class="form_group">
+          <label class="form_label" name="profile">프로필사진</label>
+          <input type="file" name="profile" value="" id="profile">
+        </div>
+        <!-- 주소 -->
+        <div class="form_group">
+          <span class="form_label">주소</span>
+          <input type="text" name="address1" id="address_1" value="" placeholder="우편번호">
+          <button type="button">우편번호찾기</button> <br>
+          <input type="text" name="address2" id="address_2" value="" placeholder="주소">
+        </div>
+        <!-- 통신사 -->
+        <div class="form_group">
+          <label class="form_label" for="telecom">이동통신사</label>
+          <select name="telecom" id="telecom">
+            <option value="" selected disabled>선택하세요</option>
+            <option value="sk">SKT</option>
+            <option value="lg">LG U+</option>
+            <option value="kt">KT</option>
+            <option value="etc">기타</option>
+          </select>
+        </div>
+        <!-- 나이 -->
+        <div class="form_group">
+          <span class="form_label">나이</span>
+          <label for="age_10">10대</label>
+          <input type="radio" name="age" id="age_10" value="10">
+          <label for="age_20">20대</label>
+          <input type="radio" name="age" id="age_20" value="20">
+          <label for="age_30">30대</label>
+          <input type="radio" name="age" id="age_30" value="30">
+          <label for="age_40">40대</label>
+          <input type="radio" name="age" id="age_40" value="40">
+          <label for="age_etc">기타</label>
+          <input type="radio" name="age" id="age_etc" value="etc">
+        </div>
+        <!-- 취미 -->
+        <div class="form_group">
+          <span class="form_label">취미</span>
+          <label for="book">독서</label>
+          <input type="checkbox" name="hobby" id="book" value="book">
+          <label for="music">음악</label>
+          <input type="checkbox" name="hobby" id="music" value="music">
+          <label for="trip">여행</label>
+          <input type="checkbox" name="hobby" id="trip" value="trip">
+          <label for="movie">영화</label>
+          <input type="checkbox" name="hobby" id="movie" value="movie">
+          <label for="coding">코딩</label>
+          <input type="checkbox" name="hobby" id="coding" value="coding">
+          <label for="hb_etc">기타</label>
+          <input type="checkbox" name="hb_hobby" id="hb_etc" value="etc">
+        </div>
+        <!-- 자기소개 -->
+        <div class="form_group self">
+          <label class="form_label" for="self">자기소개</label>
+          <textarea name="self" id="self"></textarea>
+        </div>
+        <!-- 버튼 -->
+        <div class="btn">
+          <button type="submit">등 록</button>
+          <button type="reset">초기화</button>
+        </div>
+    <!-- ***회원가입*** -->      
+      </form>
+    </div>
+  </body>
+</html>

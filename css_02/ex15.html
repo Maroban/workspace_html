@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+<head>
+  <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+  <title>스타일시트</title>
+  <!-- 스타일시트자리 -->
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+      color: black;
+      list-style-type: none;
+    }
+    .bg_img{
+      background-image: url(/img/back_img01.jpg);
+      width: 100%;
+      height: 680px;
+    }
+
+    .header{
+      width: 1200px;
+      height: 100px;
+      margin: auto;
+    }
+
+    .search{
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 255px;
+      height: 50px;
+    }
+    .search>form>input{
+      width: 200px;
+      height: 30px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding-left: 10px;
+    }
+    .search>form>span{
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .menu>ol>li{
+      float: right;
+      margin: -15px 50px 0px 0px;
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .menu>ol>li:hover{
+      font-size: 25px;
+    }
+    .login{
+      width: 300px;
+      height: 80px;
+      float: right;
+      margin: 100px 0px 0px 0px;
+      font-size: 16px;
+    }
+    .id {
+      color: white;
+      width: 80px;
+      text-align: right;
+    }
+    .pw {
+      color: white;
+      width: 80px;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="bg_img">
+      <div class="login">
+        <form action="#" method="get">
+          <table>
+            <colgroup>
+              <col style="margin-right: 10px;">
+            </colgroup>
+            <tr>
+              <td class="id">아이디</td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td class="pw">패스워드</td>
+              <td><input type="password"></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="header">
+        <div class="search">
+          <form action="#" method="GET">
+            <input type="text" placeholder="Search">
+            <span>검색</span>
+          </form>
+        </div>
+        <div class="menu">
+          <ol>
+            <li>리스트</li>
+            <li>일반게시판</li>
+            <li>게시판</li>
+            <li>홈</li>
+          </ol>
+        </div>
+      </div> 
+    </div>
+</body>
+</html>

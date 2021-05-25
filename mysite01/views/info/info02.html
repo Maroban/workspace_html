@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>MySite</title>
+  <link rel="stylesheet" href="../../assets/css/common.css">
+  <link rel="stylesheet" href="../../assets/css/info02.css">
+</head>
+<body>
+  <div id="wrap">
+    <!---------- 해더 ---------->
+    <div id="header" class="clearfix">
+      <!---------- 사이트 로고 ---------->
+      <h1><a href="../main/main.html">MySite</a></h1>
+      <!---------- 로그인 & 회원가입 링크 ---------->
+      <ul class="clearfix">
+        <li><a href="../user/login.html">로그인</a></li>
+        <li><a href="../user/register.html">회원가입</a></li>
+      </ul>
+    </div>
+    <!---------- 네비게이션 ---------->
+    <div id="nav">
+      <ul class="clearfix">
+        <li><a href="../info/info01.html">입사지원서</a></li>
+        <li><a href="../board/board01.html">게시판</a></li>
+        <li><a href="../gallery/gallery01.html">갤러리</a></li>
+        <li><a href="">방명록</a></li>
+      </ul>
+    </div>
+    <!------------------ 컨텐츠 ------------------>
+    <div id="content" class="clearfix">
+      <!---------- 왼쪽메뉴 ---------->
+      <div id="aside">
+          <h2>
+            입사지원서
+          </h2>
+          <ul>
+            <li><a href="../info/info01.html">이력서 관리</a></li>
+            <li><a href="../info/info02.html">포트폴리오 관리</a></li>
+          </ul>
+      </div>
+      <!---------- main_head 영역 ---------->
+      <div id="main">
+        <div id="main_head" class="clearfix">
+          <h3>
+            포트폴리오 관리
+          </h3>
+          <ul class="clearfix">
+            <li>홈</li>
+            <li>입사지원서</li>
+            <li class= "last">포트폴리오 관리</li>
+          </ul>
+        </div>
+      <!---------- main_body 영역 ---------->        
+        <div id="main_body">
+          <div id="board">
+            <!---------- 공지사항 ----------> 
+            <div id="notice">
+              <ul>
+                <li>포트폴리오, 기획서 파일, 경력기술서, 증명서 등 자신의 능력을 
+                  나타낼 수 있는 파일을 등록하실 수 있으며, 등록된 파일은 
+                  이력서 작성 시 첨부하실 수 있습니다.</li>
+                <li><strong>최대 10개</strong>까지 등록 가능하며 <strong>hwp, doc, docx, ppt, pptx, xls, xlsx, 
+                  pdf, txt, zip, alz</strong> 형태의 파일만 등록할 수 있습니다. <br>
+                  <strong>(개당 최대 8MB / 총 50MB 등록가능)</strong></li>
+              </ul>
+            </div>
+            <!---------- 이력서 작성 ----------> 
+            <div id="info_write" class="clearfix">
+              <form action="#" method="get">
+                <a href="">포트폴리오 등록</a>
+              </form>
+            </div>
+            <!---------- 이력서 영역 ----------> 
+              <div id="board_list">
+                <table>
+                  <colgroup>
+                    <col style="width: 30px">
+                    <col style="width: 500px">
+                    <col style="width: 100px">
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th colspan="2">이력서 제목</th>
+                      <th>등록일</th>
+                      <th>용량</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><input type="checkbox" value=""></td>
+                      <td>웹프로그래밍 어쩌구</td>
+                      <td>2021-05-17</td>
+                      <td>275.48MB</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- 이력서 하단 -->
+            <div id="pager">
+              <form action="#" method="get">
+                <button type="submit">삭제</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=============== 컨텐츠 ===============-->
+    <!---------- 푸터 ---------->
+    <div id="footer">
+      <p>Copyright ⓒ 2021 유승범. All rights reserved</p>
+    </div>
+  </div>
+</body>
+</html>

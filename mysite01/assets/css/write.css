@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/********** 글쓰기 박스 **********/
+#write_box {
+  margin-top: 15px;
+  padding: 40px 60px 20px 60px;
+  border: 2px solid #d5d5d5;
+}
+
+/********** 타이틀 **********/
+#write_box h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+/********** 게시판 선택 **********/
+#write_select {
+  float: left;
+  width: 500px;
+  height: 38px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/********** 작성자 **********/
+#write_name {
+  float: left;
+  width: 200px;
+  height: 36px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/********** 취소버튼 **********/
+.form_group>a {
+  float: left;
+  width: 50px;
+  margin-left: 10px;
+  padding: 8px 0px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/********** 저장버튼 **********/
+.form_group>button {
+  float: left;
+  width: 50px;
+  padding: 8px 0px;
+  margin-left: 10px;
+  background-color: #79b30b;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/********** 제목 **********/
+.form_group #write_title {
+  float: left;
+  width: 620px;
+  height: 36px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/********** 비밀번호 **********/
+.form_group #write_pw {
+  width: 200px;
+  height: 36px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/********** 내용 **********/
+.form_group #write_text {
+  float: left;
+  width: 100%;
+  margin: 30px 0px 0px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form_group textarea {
+  width: 853px;
+  height: 500px;
+  margin: 10px 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+}

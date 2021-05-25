@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>join</title>
+
+</head>
+
+<body>
+  <form action="#" method="get">
+    <table>
+      <tr>
+        <td>아이디</td>
+        <td><input type="text" name="User_id" id="User_id" value="" placeholder="아이디 입력" required></td>
+      </tr>
+      <tr>
+        <td>비밀번호</td>
+        <td><input type="password" name="User_pw1" id="User_pw1" value="" placeholder="비밀번호(8~32자리)" title="비밀번호 입력" minlength="8" maxlength="32" required></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="password" name="User_pw2" id="User_pw2" value="" placeholder="비밀번호 재입력" title="비밀번호 재입력" minlength="8" maxlength="32" required></td>
+      </tr>
+      <tr>
+        <td>프로필 사진</td>
+        <td><input type="file" name="file" value="" id="file"></td>
+      </tr>
+      <tr>
+        <td>이름</td>
+        <td><input type="text" name="User_name" id="User_name" value="" placeholder="이름을 입력하세요"></td>
+      </tr>
+      <tr>
+        <td>이동통신사</td>
+        <td><select name="telecom">
+          <option value="" selected disabled>선택하세요</option>
+          <option value="sk">SKT</option>
+          <option value="kt">KT</option>
+          <option value="lg">LG U+</option>
+          <option value="et">기타</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>전화번호</td>
+        <td><select name="tel1">
+          <option value="010" selected>010</option>
+          <option value="011">011</option>
+          <option value="016">016</option>
+          <option value="017">017</option>
+          <option value="018">018</option>
+          <option value="019">019</option>
+          <input type="tel" name="tel2" id="tel2" maxlength="4" value="" style="width: 60px;">
+           - 
+          <input type="tel" name="tel3" id="tel3" maxlength="4" value="" style="width: 60px;">
+        </select></td>
+      </tr>
+      <tr>
+        <td rowspan="2">주소</td>
+        <td><input type="text" name="add1" id="add1" placeholder="우편번호를 입력하세요" value=""><button type="button" onclick="window.open('test02.html','NewWindow','width=300 height=300')">우편번호찾기</button></td>
+      </tr>
+      <tr>
+        <td><input type="text" name="add2" id="add2" placeholder="주소를 입력하세요" value=""></td>
+      </tr>
+      <tr>
+        <td>나이</td>
+        <td>
+          10대<input type="radio" name="age" id="rdo_10" value="rdo_10">
+          20대<input type="radio" name="age" id="rdo_20" value="rdo_20">
+          30대<input type="radio" name="age" id="rdo_30" value="rdo_30">
+          40대<input type="radio" name="age" id="rdo_40" value="rdo_40">
+          기타<input type="radio" name="age" id="rdo_et" value="rdo_et">
+          </td>
+      </tr>
+        <tr>
+          <td>취미</td>
+          <td>독서<input type="checkbox" name="hobby" value="ck_book" id="ck_book">
+              음악<input type="checkbox" name="hobby" value="ck_music" id="ck_music">
+              여행<input type="checkbox" name="hobby" value="ck_trip" id="ck_trip">
+              영화<input type="checkbox" name="hobby" value="ck_movie" id="ck_movie">
+              코딩<input type="checkbox" name="hobby" value="ck_coding" id="ck_coding">
+              기타<input type="checkbox" name="hobby" value="ck_et" id="ck_et"></td>
+        </tr>
+        <tr>
+          <td>자기소개</td>
+          <td><textarea name="jaso" id="jaso" cols="50" rows="5" placeholder="5줄 이상 작성해주세요"></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit">등 록</button>
+            <button type="reset">초기화</button>
+          </td>
+        </tr>
+    </table>
+  </form>
+
+
+
+
+
+</body>
+</html>

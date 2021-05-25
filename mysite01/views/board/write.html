@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>MySite</title>
+  <link rel="stylesheet" href="../../assets/css/common.css">
+  <link rel="stylesheet" href="../../assets/css/write.css">
+</head>
+<body>
+  <div id="wrap">
+    <!---------- 해더 ---------->
+    <div id="header" class="clearfix">
+      <!---------- 사이트 로고 ---------->
+      <h1><a href="../main/main.html">MySite</a></h1>
+      <!---------- 로그인 & 회원가입 링크 ---------->
+      <ul class="clearfix">
+        <li><a href="../user/login.html">로그인</a></li>
+        <li><a href="../user/register.html">회원가입</a></li>
+      </ul>
+    </div>
+    <!---------- 네비게이션 ---------->
+    <div id="nav">
+      <ul class="clearfix">
+        <li><a href="../info/info01.html">입사지원서</a></li>
+        <li><a href="../board/board01.html">게시판</a></li>
+        <li><a href="../gallery/gallery01.html">갤러리</a></li>
+        <li><a href="">방명록</a></li>
+      </ul>
+    </div>
+    <!---------- 글쓰기 ---------->
+    <div id="write_box" class="clearfix">
+        <h2>글쓰기</h2>
+        <form action="#" method="GET">
+          <!-- 게시판 선택 -->
+          <div class="form_group">
+            <select id="write_select">
+              <option value="" selected disabled>게시판을 선택해 주세요.</option>
+              <option value="" disabled>--- 게시판 ---</option>
+              <option value="1">일반게시판</option>
+              <option value="2">댓글게시판</option>
+              <option value="3">첨부게시판</option>
+              <option value="" disabled>--- 갤러리 ---</option>
+              <option value="4">사진갤러리</option>
+              <option value="5">배경갤러리</option>
+              <option value="6">동물갤러리</option>
+            </select>
+          </div>
+          <!-- 작성자 -->
+          <div class="form_group">
+            <input id="write_name" type="text" value="" placeholder="작성자">
+          </div>
+
+          <!-- 버튼 -->
+          <div class="form_group">
+            <a href="../main/main.html">취소</a>
+            <button type="submit">저장</button>
+          </div>
+
+          <!-- 제목 -->
+          <div class="form_group">
+            <input id="write_title" type="text" value="" placeholder="제목을 입력해 주세요.">
+          </div>
+            <!-- 비밀번호 -->
+          <div class="form_group">
+            <input id="write_pw" type="password" value="" placeholder="비밀번호">
+          </div>
+          <!-- 내용 -->
+          <div class="form_group">
+            <label for="" id="write_text">내용</label>
+            <textarea></textarea>
+          </div>
+        </form>
+      
+    </div>
+    <!---------- 푸터 ---------->
+    <div id="footer">
+      <p>Copyright ⓒ 2021 유승범. All rights reserved</p>
+    </div>
+  </div>
+</body>
+</html>

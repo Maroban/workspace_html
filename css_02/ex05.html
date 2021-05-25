@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+        .div_round{
+            background-color: teal;
+            width: 200px;
+            height: 100px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .div_round_each{
+            background-color: royalblue;
+            width: 300px;
+            height: 300px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 40px;
+        }
+
+        .div_round_all{
+            background-color: darkorange;
+            width: 300px;
+            height: 300px; 
+            border-radius: 10px 20px 30px 40px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="div_round">
+            라운드 한번에 적용
+        </div>
+        <br>
+        <div class="div_round_each">
+            top-right: 10px <br>
+            top-left: 20px <br>
+            bottom-right: 30px <br>
+            bottom-left: 40px <br>
+        </div>
+
+        <div class="div_round_all">
+            top-right: 10px <br>
+            top-left: 20px <br>
+            bottom-right: 30px <br>
+            bottom-left: 40px <br>
+        </div>
+
+        
+
+    </body>
+
+</html>

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/********** 검색 영역 **********/
+#board #search_area form {
+  float: right;
+}
+#board #search_area form input[type="text"] {
+  width: 150px;
+  height: 25px;
+}
+#board #search_area form button { 
+  padding: 3px 5px;
+}
+
+/********** 갤러리 글 영역 **********/
+#gallery_1>a>img, #gallery_2>a>img, #gallery_3>a>img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#gallery_1, #gallery_2, #gallery_3 {
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#gallery_1>ul>:nth-child(1), #gallery_2>ul>:nth-child(1), #gallery_3>ul>:nth-child(1) {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 13px;
+}
+#gallery_1>ul>:nth-child(1)>a>span, #gallery_2>ul>:nth-child(1)>a>span, #gallery_3>ul>:nth-child(1)>a>span {
+  color: #ff2f3b;
+  font-size: 13px;
+}
+#gallery_1>ul>:nth-child(2), #gallery_2>ul>:nth-child(2), #gallery_3>ul>:nth-child(2) {
+  margin-top: 8px;
+  color: #666;
+}
+#gallery_1>ul>:nth-child(3), #gallery_2>ul>:nth-child(3), #gallery_3>ul>:nth-child(3) {
+  margin-top: 2px;
+  color: #999;
+}
+
+/********** 페이징 영역 **********/
+#board #pager {
+  text-align: center;
+}
+#board #pager ol {
+  width: 190px;
+  display: inline-block;
+}
+#board #pager ol>li {
+  float: left;
+  font-size: 14px;
+  margin-right:5px;
+  margin-top: 5px;
+}
+#board #pager ol>li>a.active {
+  font-weight: bold;
+  color: #db1900;
+  text-decoration: underline;
+}
+#board #pager #btn-write {
+  float: right;
+  padding: 5px 10px;
+  background-color: #ddd;
+  border: 1px solid #808080;
+  border-radius: 2px;
+}

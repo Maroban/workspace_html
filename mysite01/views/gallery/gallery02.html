@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>MySite</title>
+  <link rel="stylesheet" href="../../assets/css/common.css">
+  <link rel="stylesheet" href="../../assets/css/gallery.css">
+</head>
+<body>
+  <div id="wrap">
+    <!---------- 해더 ---------->
+    <div id="header" class="clearfix">
+      <!---------- 사이트 로고 ---------->
+      <h1><a href="../main/main.html">MySite</a></h1>
+      <!---------- 로그인 & 회원가입 링크 ---------->
+      <ul class="clearfix">
+        <li><a href="../user/login.html">로그인</a></li>
+        <li><a href="../user/register.html">회원가입</a></li>
+      </ul>
+    </div>
+    <!---------- 네비게이션 ---------->
+    <div id="nav">
+      <ul class="clearfix">
+        <li><a href="../info/info01.html">입사지원서</a></li>
+        <li><a href="../board/board01.html">게시판</a></li>
+        <li><a href="../gallery/gallery01.html">갤러리</a></li>
+        <li><a href="">방명록</a></li>
+      </ul>
+    </div>
+    <!------------------ 컨텐츠 ------------------>
+    <div id="content" class="clearfix">
+      <!---------- 왼쪽메뉴 ---------->
+      <div id="aside">
+        <h2>
+          갤러리
+        </h2>
+        <ul>
+          <li><a href="../gallery/gallery01.html">사진갤러리</a></li>
+          <li><a href="../gallery/gallery02.html">배경갤러리</a></li>
+          <li><a href="../gallery/gallery03.html">동물갤러리</a></li>
+        </ul>
+      </div>
+      <!---------- main_head 영역 ---------->
+      <div id="main">
+        <div id="main_head" class="clearfix">
+          <h3>
+            배경갤러리
+          </h3>
+          <ul class="clearfix">
+            <li>홈</li>
+            <li>갤러리</li>
+            <li class= "last">배경갤러리</li>
+          </ul>
+        </div>
+      <!---------- main_body 영역 ---------->        
+        <div id="main_body">
+          <div id="board">
+            <!---------- 검색 ---------->
+            <div id="search_area" class="clearfix">
+              <form action="#" method="get">
+                <input type="text" name="keyword" value="">
+                <button type="submit">검색</button>
+              </form>
+            </div>
+            <!---------- 갤러리 글 영역 ---------->
+              <div id="gallery_list" class="clearfix">
+                <div id="gallery_1">
+                  <a href="../gallery/gallery02_jeju.html"><img src="../../assets/img/jeju.jpg"></a>
+                  <ul>
+                    <li><a href="../gallery/gallery02_jeju.html">아름다운 제주도<span>[7]</span></a></li>
+                    <li>유승범</li>
+                    <li>2021.05.17</li>
+                  </ul>
+                </div>
+                <div id="gallery_2">
+                  <a href="../gallery/gallery02_mountain.html"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile10.uf.tistory.com%2Fimage%2F99585B4C5BB585461E947D"></a>
+                  <ul>
+                    <li><a href="../gallery/gallery02_mountain.html">멋있는 북한산<span>[5]</span></a></li>
+                    <li>유승범</li>
+                    <li>2021.05.17</li>
+                  </ul>
+                </div>                
+              </div>
+              <!-- 페이징 -->
+            <div id="pager">
+              <ol class="clearfix">
+                <li><a href="">◀</a></li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">6</a></li>
+                <li><a class="active" href="">7</a></li>
+                <li><a href="">8</a></li>
+                <li><a href="">9</a></li>
+                <li><a href="">10</a></li>
+                <li><a href="">▶</a></li>
+              </ol>
+              <a id="btn-write" href="../board/write.html">글쓰기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=============== 컨텐츠 ===============-->
+    <!---------- 푸터 ---------->
+    <div id="footer">
+      <p>Copyright ⓒ 2021 유승범. All rights reserved</p>
+    </div>
+  </div>
+</body>
+</html>

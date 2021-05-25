@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>MySite</title>
+  <link rel="stylesheet" href="../../assets/css/common.css">
+  <link rel="stylesheet" href="../../assets/css/board.css">
+</head>
+<body>
+  <div id="wrap">
+    <!---------- 해더 ---------->
+    <div id="header" class="clearfix">
+      <!---------- 사이트 로고 ---------->
+      <h1><a href="../main/main.html">MySite</a></h1>
+      <!---------- 로그인 & 회원가입 링크 ---------->
+      <ul class="clearfix">
+        <li><a href="../user/login.html">로그인</a></li>
+        <li><a href="../user/register.html">회원가입</a></li>
+      </ul>
+    </div>
+    <!---------- 네비게이션 ---------->
+    <div id="nav">
+      <ul class="clearfix">
+        <li><a href="../info/info01.html">입사지원서</a></li>
+        <li><a href="../board/board01.html">게시판</a></li>
+        <li><a href="../gallery/gallery01.html">갤러리</a></li>
+        <li><a href="">방명록</a></li>
+      </ul>
+    </div>
+    <!------------------ 컨텐츠 ------------------>
+    <div id="content" class="clearfix">
+      <!---------- 왼쪽메뉴 ---------->
+      <div id="aside">
+        <h2>
+          게시판
+        </h2>
+        <ul>
+          <li><a href="./board01.html">일반게시판</a></li>
+          <li><a href="./board02.html">댓글게시판</a></li>
+          <li><a href="./board03.html">첨부게시판</a></li>
+        </ul>
+      </div>
+      <!---------- main_head 영역 ---------->
+      <div id="main">
+        <div id="main_head" class="clearfix">
+          <h3>
+            첨부게시판
+          </h3>
+          <ul class="clearfix">
+            <li>홈</li>
+            <li>게시판</li>
+            <li class= "last">첨부게시판</li>
+          </ul>
+        </div>
+      <!---------- main_body 영역 ---------->        
+        <div id="main_body">
+          <div id="board">
+            <!-- 검색 -->
+            <div id="search_area" class="clearfix">
+              <form action="#" method="get">
+                <input type="text" name="keyword" value="">
+                <button type="submit">검색</button>
+              </form>
+            </div>
+            <!-- 게시글 -->
+              <div id="board_list">
+                <table>
+                  <colgroup>
+                    <col style="width: 50px">
+                    <col style="width: 500px">
+                    <col style="width: 50px">
+                    <col style="width: 50px">
+                    <col style="width: 80px">
+                    <col style="width: 40px">
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th>번호</th>
+                      <th>제목</th>
+                      <th>글쓴이</th>
+                      <th>조회수</th>
+                      <th>작성일</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>999</td>
+                      <td>게시물 제목입니다. 게시물 제목입니다.</td>
+                      <td>유승범</td>
+                      <td>123456</td>
+                      <td>2021-05-17</td>
+                      <td>[삭제]</td>
+                    </tr>
+                    <tr>
+                      <td>999</td>
+                      <td>게시물 제목입니다. 게시물 제목입니다.</td>
+                      <td>유승범</td>
+                      <td>123456</td>
+                      <td>2021-05-17</td>
+                      <td>[삭제]</td>
+                    </tr>
+                    <tr>
+                      <td>999</td>
+                      <td>게시물 제목입니다. 게시물 제목입니다.</td>
+                      <td>유승범</td>
+                      <td>123456</td>
+                      <td>2021-05-17</td>
+                      <td>[삭제]</td>
+                    </tr>
+                    <tr>
+                      <td>999</td>
+                      <td>게시물 제목입니다. 게시물 제목입니다.</td>
+                      <td>유승범</td>
+                      <td>123456</td>
+                      <td>2021-05-17</td>
+                      <td>[삭제]</td>
+                    </tr>
+                    <tr>
+                      <td>999</td>
+                      <td>게시물 제목입니다. 게시물 제목입니다.</td>
+                      <td>유승범</td>
+                      <td>123456</td>
+                      <td>2021-05-17</td>
+                      <td>[삭제]</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- 페이징 -->
+            <div id="pager">
+              <ol class="clearfix">
+                <li><a href="">◀</a></li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">6</a></li>
+                <li><a class="active" href="">7</a></li>
+                <li><a href="">8</a></li>
+                <li><a href="">9</a></li>
+                <li><a href="">10</a></li>
+                <li><a href="">▶</a></li>
+              </ol>
+              <a id="btn-write" href="../board/write.html">글쓰기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=============== 컨텐츠 ===============-->
+    <!---------- 푸터 ---------->
+    <div id="footer">
+      <p>Copyright ⓒ 2021 유승범. All rights reserved</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/********** 메인컨텐츠 **********/
+#full_content #profile_img {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+#full_content #greetings {
+  float: left;
+}
+#full_content>#greetings>:nth-child(1){
+  margin-bottom: 30px;    
+  font-size: 20px;
+  font-weight: bold;
+}
+#full_content>#greetings>:nth-child(2){
+  font-size: 15px;
+}
